@@ -3,9 +3,9 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { card, cardContent } from '@/app/components/ui/card'; // adjust path as needed
+import { Card, CardContent } from '@/app/components/ui/card'; // adjust path as needed
 // import { Badge } from './ui/badge'; // adjust path as needed
-import { Button } from '@/app/components/ui/button'; // adjust path as needed
+import Button from '@/app/components/ui/button'; // adjust path as needed
 
 // Helper function for rarity badge colors
 function getRarityColor(rarity) {
