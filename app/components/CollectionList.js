@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Card, CardContent } from '@/app/components/ui/card'; // adjust path as needed
+import { card, cardContent } from '@/app/components/ui/card'; // adjust path as needed
 // import { Badge } from './ui/badge'; // adjust path as needed
 import { Button } from '@/app/components/ui/button'; // adjust path as needed
 
