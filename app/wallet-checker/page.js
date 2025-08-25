@@ -22,7 +22,7 @@ export default function NFTBalanceChecker() {
         throw new Error('Invalid address format.');
       }
 
-      const provider = new ethers.JsonRpcProvider("https://testnet-rpc.megaeth.network");
+      const provider = new ethers.JsonRpcProvider("https://carrot.megaeth.com/rpc");
       const nftContract = new ethers.Contract(contractAddress, ERC721_ABI, provider);
       const bal = await nftContract.balanceOf(walletAddress);
       setBalance(bal.toString());
